@@ -920,8 +920,8 @@ strong {
 }
 
 .footer-logo img {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   filter: brightness(10);
   opacity: 0.6;
   transition: opacity 0.3s;
@@ -993,11 +993,11 @@ strong {
   .hero-bottom {
     flex-direction: column;
     gap: 16px;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .hero-bottom-center {
-    text-align: left;
+    text-align: center;
   }
 
   .hero-bottom-right {
