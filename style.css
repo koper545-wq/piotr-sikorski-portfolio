@@ -323,8 +323,9 @@ strong {
 }
 
 .hero-bottom-center {
-  max-width: 420px;
+  max-width: 500px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .hero-collab {
