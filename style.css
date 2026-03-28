@@ -208,7 +208,7 @@ strong {
 }
 
 .corner-bl {
-  bottom: 32px;
+  bottom: 120px;
   left: 32px;
   display: flex;
   flex-direction: column;
