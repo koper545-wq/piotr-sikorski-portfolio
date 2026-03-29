@@ -10,13 +10,13 @@
 }
 
 :root {
-  --bg: #1a1a14;
-  --bg2: #141410;
-  --white: #e8e4d9;
-  --accent: #c8ff00;
-  --accent-dim: rgba(200, 255, 0, 0.15);
-  --grey: #6b6b5e;
-  --grey-light: #9a9a8a;
+  --bg: #0a0a0a;
+  --bg2: #050505;
+  --white: #f0f0f0;
+  --accent: #ffffff;
+  --accent-dim: rgba(255, 255, 255, 0.12);
+  --grey: #666666;
+  --grey-light: #999999;
   --font-sans: 'Oswald', sans-serif;
   --font-mono: 'Space Mono', monospace;
   --font-body: 'Inter', sans-serif;
@@ -158,8 +158,8 @@ strong {
   align-items: center;
   overflow: hidden;
   background:
-    radial-gradient(ellipse at 30% 60%, rgba(200, 255, 0, 0.04) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 30%, rgba(200, 150, 0, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 60%, rgba(255, 255, 255, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
     var(--bg);
 }
 
@@ -277,7 +277,7 @@ strong {
   letter-spacing: -0.02em;
   line-height: 0.85;
   color: transparent;
-  -webkit-text-stroke: 1.5px rgba(200, 255, 0, 0.12);
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.12);
   white-space: nowrap;
 }
 
@@ -353,8 +353,8 @@ strong {
 .hero-latest-thumb {
   width: 120px;
   height: 70px;
-  background: linear-gradient(135deg, #1a0a2e, #ff3d00, #0a2a1a);
-  border: 1px solid rgba(200, 255, 0, 0.2);
+  background: linear-gradient(135deg, #1a1a1a, #333, #1a1a1a);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* ============================
@@ -543,8 +543,8 @@ strong {
 
 .spec-item {
   padding: 36px 28px;
-  background: rgba(200, 255, 0, 0.015);
-  border: 1px solid rgba(200, 255, 0, 0.06);
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   transition: all 0.4s;
   position: relative;
 }
@@ -563,8 +563,8 @@ strong {
 }
 
 .spec-item:hover {
-  background: rgba(200, 255, 0, 0.04);
-  border-color: rgba(200, 255, 0, 0.15);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .spec-item:hover::before {
@@ -654,8 +654,8 @@ strong {
 
 .project-item {
   padding: 32px 36px;
-  background: rgba(200, 255, 0, 0.015);
-  border: 1px solid rgba(200, 255, 0, 0.06);
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   transition: all 0.4s;
   position: relative;
 }
@@ -673,8 +673,8 @@ strong {
 }
 
 .project-item:hover {
-  background: rgba(200, 255, 0, 0.04);
-  border-color: rgba(200, 255, 0, 0.15);
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .project-item:hover::after {
@@ -741,7 +741,7 @@ strong {
   max-width: 800px;
   padding-top: min(56.25%, 450px);
   background: #000;
-  border: 1px solid rgba(200, 255, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .slide-video iframe {
@@ -805,16 +805,16 @@ strong {
 }
 
 .result-block {
-  background: rgba(200, 255, 0, 0.02);
-  border: 1px solid rgba(200, 255, 0, 0.06);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   padding: 50px 28px;
   text-align: center;
   transition: all 0.4s;
 }
 
 .result-block:hover {
-  background: rgba(200, 255, 0, 0.05);
-  border-color: rgba(200, 255, 0, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .result-big {
@@ -858,7 +858,7 @@ strong {
   position: relative;
   border-top: 1px solid var(--accent-dim);
   background:
-    radial-gradient(ellipse at 50% 50%, rgba(200, 255, 0, 0.03) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 60%),
     var(--bg);
 }
 
@@ -933,14 +933,17 @@ strong {
 
 .footer-meta {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
   width: 100%;
-  padding: 0 40px 0;
+  padding: 0 40px;
   font-family: var(--font-mono);
   font-size: 11px;
   color: var(--grey);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /* ============================
